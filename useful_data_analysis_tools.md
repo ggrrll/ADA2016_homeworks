@@ -5,6 +5,16 @@
 - [`pd.concat`](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.concat.html)
 
 
+# web data parsing
+
+our work-flow:
+
+ `base_url` + `params_dict`  --> `rq.get(base_url,params=params_dict)` -->   
+
+`bs4.BeautifulSoup(form_source.text, "html.parser")` -->   
+
+`result_soup.find_all('table')[0]` --> `pd.read_html(result_table.decode())[0]`
+
 # applied ML
 
 - [SK-learn notebooks](https://github.com/justmarkham/scikit-learn-videos), in particular:
