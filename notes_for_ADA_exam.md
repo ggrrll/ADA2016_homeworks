@@ -29,6 +29,8 @@ Review notes based on [ADA lectures](http://ada.epfl.ch/lectures/)
 	- filtering (~prune) 
 	- wrapper (~enrich) - usually slow
 
+- [easy categorical feature encoding](http://chrisalbon.com/python/pandas_convert_categorical_to_dummies.html) using Pandas' `get_dummies` method
+
 ##  Supervised learning (good & fast algo)
 
 
