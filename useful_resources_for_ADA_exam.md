@@ -1,5 +1,7 @@
 
 
+Review notes based on [ADA lectures](http://ada.epfl.ch/lectures/)
+
 # STATS
 
 ## how to choose statistical test 
@@ -11,6 +13,44 @@
 [another nice one](https://s-media-cache-ak0.pinimg.com/originals/da/c9/60/dac96086a651aea01b0ef24da4faaa9f.jpg)
 
 
+# MACHINE LEARNING
+
+## good practise in applied ML
+
+- don't forget to:
+	- standardize (bad point: assume gaussian!)
+	- re-scale (bad point: too importance to outliers!)
+
+- feature selection:
+	- filtering (~prune) 
+	- wrapper (~enrich) - usually slow
+
+##  Supervised learning (good & fast algo)
+
+
+- decision trees --> improveded to:
+ 
+	- random forest (bagging)  - tend to high variance / overfit
+	- B.D.T (boosting)	- tend to high bias
+
+- k-nn (find best _k_)
+
+- linerar regression - don't forget R2!
+
+- [Choosing the right estimator](http://scikit-learn.org/stable/tutorial/machine_learning_map/) in scikit-learning
+
+##  Unsupervised learning 
+
+- Hierarchical - [Hierarchical on scikit](http://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering) and 
+[on scipy](https://joernhees.de/blog/2015/08/26/scipy-hierarchical-clustering-and-dendrogram-tutorial/)
+
+- point assignement
+
+- DBScan - [DBScan on scikit](http://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html#sphx-glr-auto-examples-cluster-plot-dbscan-py)
+
+- Matrix Factorization 
+
+
 # VIZ
 
 ## colors palette
@@ -19,3 +59,30 @@
 you can find the code if you favourite color ;)
 
 # TEXT   
+
+
+
+
+# GRAPH
+
+
+- community detection - e.g.: try to print modulartity VS # clusters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
