@@ -16,11 +16,10 @@ Review notes based on [ADA lectures](http://ada.epfl.ch/lectures/)
 
 # MACHINE LEARNING
 
+
+## good practices in applied ML
+
 - [sklearn cheat sheet](http://scikit-learn.org/stable/_static/ml_map.png) (how to choose the right estimator)
-
-# MACHINE LEARNING
-
-## good practise in applied ML
 
 - don't forget to:
 	- standardize (bad point: assume gaussian!)
@@ -33,14 +32,14 @@ Review notes based on [ADA lectures](http://ada.epfl.ch/lectures/)
 ##  Supervised learning (good & fast algo)
 
 
-- decision trees --> improveded to:
+- decision trees --> improved to:
  
 	- random forest (bagging)  - tend to high variance / overfit
 	- B.D.T (boosting)	- tend to high bias
 
 - k-nn (find best _k_)
 
-- linerar regression - don't forget R2!
+- linear regression - don't forget R2!
 
 - [Choosing the right estimator](http://scikit-learn.org/stable/tutorial/machine_learning_map/) in scikit-learning
 
@@ -49,7 +48,7 @@ Review notes based on [ADA lectures](http://ada.epfl.ch/lectures/)
 - Hierarchical - [Hierarchical on scikit](http://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering) and 
 [on scipy](https://joernhees.de/blog/2015/08/26/scipy-hierarchical-clustering-and-dendrogram-tutorial/)
 
-- point assignement
+- point assignment
 
 - DBScan - [DBScan on scikit](http://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html#sphx-glr-auto-examples-cluster-plot-dbscan-py)
 
@@ -60,11 +59,17 @@ Review notes based on [ADA lectures](http://ada.epfl.ch/lectures/)
 
 ## colors palette
 
-- in [this webiste](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) 
-you can find the code if you favourite color ;)
+- in [this website](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) 
+you can find the code if you favorite color ;)
 
 # TEXT   
-<<<<<<< HEAD
+
+important steps in a NLP workflow:
+
+- Tokenization
+- Lemmatization
+- Stemming
+
 
 
 
@@ -72,7 +77,7 @@ you can find the code if you favourite color ;)
 # GRAPH
 
 
-- community detection - e.g.: try to print modulartity VS # clusters
+- community detection - e.g.: try to print modularity VS # clusters
 
 
 
@@ -83,14 +88,3 @@ you can find the code if you favourite color ;)
 
 
 
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> origin/master
