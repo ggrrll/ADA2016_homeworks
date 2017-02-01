@@ -12,6 +12,11 @@ Review notes based on [ADA lectures](http://ada.epfl.ch/lectures/)
 - here is a [decision tree](http://www.biochemia-medica.com/system/files/Marusteri_M._Statistical_test_selection_when_comparing_groups_Fig._4.jpg) suggested by  pirrow, and here
 [another nice one](https://s-media-cache-ak0.pinimg.com/originals/da/c9/60/dac96086a651aea01b0ef24da4faaa9f.jpg)
 
+- [T-test in Python](http://hamelg.blogspot.com/2015/11/python-for-data-analysis-part-24.html)
+
+# MACHINE LEARNING
+
+- [sklearn cheat sheet](http://scikit-learn.org/stable/_static/ml_map.png) (how to choose the right estimator)
 
 # MACHINE LEARNING
 
@@ -59,6 +64,7 @@ Review notes based on [ADA lectures](http://ada.epfl.ch/lectures/)
 you can find the code if you favourite color ;)
 
 # TEXT   
+<<<<<<< HEAD
 
 
 
@@ -86,3 +92,5 @@ you can find the code if you favourite color ;)
 
 
 
+=======
+>>>>>>> origin/master
