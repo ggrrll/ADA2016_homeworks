@@ -64,13 +64,19 @@ you can find the code if you favorite color ;)
 
 # TEXT   
 
-important steps in a NLP workflow:
+- important steps in a NLP workflow:
 
-- Tokenization
-- Lemmatization
-- Stemming
+	- Tokenization
+	- Lemmatization
+	- Stemming
 
+- types of models - based on 
+[lab 5 notes](https://github.com/ADAEPFL/Labs/tree/master/05%20-%20Handling%20Text):
 
+	- topic modeling  (python: gensim, lda)
+	- word embeddings - related python tool:
+		- [t-SNE](http://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html)
+		- [word2vec in gensim](https://radimrehurek.com/gensim/models/word2vec.html)
 
 
 
