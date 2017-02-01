@@ -20,7 +20,7 @@ our work-flow:
 # applied ML
 
 
-- our pipeline to build and test a classifier, used in [this notebook](https://github.com/ggrrll/tatoule/blob/master/04%20-%20Applied%20ML/1-hw4_applied_ml.ipynb):
+- our pipeline to build and test a classifier (Sup Lear), used in [this notebook](https://github.com/ggrrll/tatoule/blob/master/04%20-%20Applied%20ML/1-hw4_applied_ml.ipynb):
 
 	- `from sklearn.ensemble import RandomForestClassifier`
 
@@ -30,8 +30,10 @@ our work-flow:
 
 	-  `from sklearn.model_selection import learning_curve` 
 
+	- `from sklearn.feature_selection import SelectFromModel`
 
-	
+
+
 - [SK-learn notebooks](https://github.com/justmarkham/scikit-learn-videos), in particular:
 	- [example of K-nn](https://github.com/justmarkham/scikit-learn-videos/blob/master/04_model_training.ipynb)
 
@@ -43,6 +45,24 @@ our work-flow:
 
 	- [hyper-parameters optimization](https://github.com/justmarkham/scikit-learn-videos/blob/master/08_grid_search.ipynb)
 
+
+# NLP
+
+our pipeline:
+
+- `nltk.wordpunct_tokenize` 
+
+-  clean tokens from stopwods: ```from nltk.corpus import stopwords;      
+stop_words = set(stopwords.words('english'))```
+
+- stemming: ```from nltk.stem import PorterStemmer;
+ps = PorterStemmer();
+stemmed_tokens = [ps.stem(t) for t in filtered_tokens]```
+
+- sentiment analysis: `from nltk.sentiment.vader import SentimentIntensityAnalyzer` 
+
+- topic modeling: `from gensim import corpora; 
+from gensim.models.ldamodel import LdaModel` 
 
 # data VIZ 
 
